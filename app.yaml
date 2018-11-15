@@ -1,0 +1,7 @@
+runtime: python37
+service: make-copper-component
+
+# and add the following lines to the handlers element:
+handlers:
+ - url: '/.*'
+   script: auto
